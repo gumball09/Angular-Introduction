@@ -1,0 +1,28 @@
+table.table-courses {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.table-courses th {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}
+
+table.table-courses td {
+    font-size: 15px;
+}
+
+table.table-courses {
+    border: 1px solid black;
+}
+
+table.table-courses tr:nth-child(even){background-color: #f2f2f2;}
+/* Set the light line between blocks */
+table.table-courses td, table.table-courses th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
