@@ -7,6 +7,6 @@
 -`@Output()` decorative: to print something custom to the console\
 -`EventEmitter`: used along with `@Output`\
 -`*ngFor`: iteration > render multiple data\
-- `*ngIf`: render conditions
-- `<ng-template></ng-template>`: templated block 
-- `#name`: a name reference to a current element (can be referred to throughout the file)
+-`*ngIf`: render conditions
+-`<ng-template></ng-template>`: templated block 
+-`#name`: a name reference to a current element (can be referred to throughout the file)
