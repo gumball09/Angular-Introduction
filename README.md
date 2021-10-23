@@ -71,3 +71,7 @@ Templated mechanism to transform data and display it in another form\
 <br/>
 
 -`json`: converts data info json format for DEBUGGING PURPOSES
+<br/>
+
+-`keyvalue`: useful for iterating through each property with its associated value of an object
+  - `<div *ngFor="let pair of course | keyvalue">{{ pair.key }}: {{ pair.value }}</div>`: display the key-value pair one by one
