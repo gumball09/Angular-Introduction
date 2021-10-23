@@ -40,6 +40,6 @@ Templated mechanism to transform data and display it in another form\
   - `<div>{{ startDate | date: 'MM/dd/yyyy' }}</div>`: get the startDate and pipe to `date` fn, which takes a string as format paramter (optional)
 <br/>
 
--`titlecase`: display a string with the first letter capitalized for each word (i.e `<div>{{title | titlecase }}</div>`)
--`uppercase`: display a string with all letters IN UPPER CASE (i.e `<div>{{title | uppercase }}</div>`)
+-`titlecase`: display a string with the first letter capitalized for each word (i.e `<div>{{title | titlecase }}</div>`)\
+-`uppercase`: display a string with all letters IN UPPER CASE (i.e `<div>{{title | uppercase }}</div>`)\
 -`lowercase`: display a string with all letters IN LOWER CASE (.ie `<div>{{title | lowercase }}</div>`)
