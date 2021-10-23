@@ -16,7 +16,7 @@
   - NOT MEANT TO REPLACE THE TRADITIONAL CSS STYLING (CONSTANT STYLES TO AN ELEMENT SHOULD BE APPLIED     
    THROUGH NORMAL CSS STYLING)\
   - `[ngClass]`: only used for **css state classes** to indicate the presence of a given state in the 
-  component\
+  component
 <br/>
 -`[ngStyle]`: (similar to `[ngClass]`) to set a particular style to an el 
   - **`[ngClass]` & `[ngStyle]` should only be used for DYNAMIC STYLING
