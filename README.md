@@ -6,4 +6,4 @@
 -`#name`: '#' with a custom name creates a `reference` to the current el\
 -`@Output()` decorative:\ 
 -`EventEmitter`:\ 
--`*ngFor`: iteration > render multiple data
+-`*ngFor`: iteration > render multiple data \
