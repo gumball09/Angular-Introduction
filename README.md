@@ -50,3 +50,8 @@ Templated mechanism to transform data and display it in another form\
 
 -`lowercase`: display a string with all letters IN LOWER CASE
   - `<div>{{title | lowercase }}</div>`
+<br/>
+
+**NUMBERS**\
+-`number`: takes a string as parameter which defines the format **numberOfIntegerDigits.minFraction-maxFraction**
+  -`<div>{{ price | number: '3.3-5' }}</div>`: format as 3 integer digits, minimum of 3 and maximum of 5 decimals
