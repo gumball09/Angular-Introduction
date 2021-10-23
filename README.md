@@ -54,4 +54,8 @@ Templated mechanism to transform data and display it in another form\
 
 **NUMBERS**\
 -`number`: takes a string as parameter which defines the format **numberOfIntegerDigits.minFraction-maxFraction**
-  -`<div>{{ price | number: '3.3-5' }}</div>`: format as 3 integer digits, minimum of 3 and maximum of 5 decimals
+  - `<div>{{ price | number: '3.3-5' }}</div>`: format as 3 integer digits, minimum of 3 and maximum of 5 fraction digits
+<br/>
+
+-`currency`: display a currency value (default: $)
+  - `<div>{{ price | currency: 'CAD' }}</div>`: display currency in Canadian Dollars
