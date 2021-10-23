@@ -17,10 +17,12 @@
    THROUGH NORMAL CSS STYLING)\
   - `[ngClass]`: only used for **css state classes** to indicate the presence of a given state in the 
   component
-\
+<br/>
+
 -`[ngStyle]`: (similar to `[ngClass]`) to set a particular style to an el 
   - **`[ngClass]` & `[ngStyle]` should only be used for DYNAMIC STYLING**
-\
+<br/>
+
 -`[ngSwitch]` & `*ngSwitchCase` & `*ngSwitchDefault`: conditional rendering based on different cases
   - `[ngSwitch]`: used in the parent element, takes an expression as parameter (i.e `[ngSwitch]="course.description"`)
   - `*ngSwitchCase`: used in the child element, takes a string as parameter (**IF matches the condition -> the element will be rendered**)
@@ -36,12 +38,15 @@ Templated mechanism to transform data and display it in another form\
 **STRING FORMAT**\
 -`date`: display a date (with default or custom format)
   - `<div>{{ startDate | date: 'MM/dd/yyyy' }}</div>`: get the startDate and pipe to `date` fn, which takes a string as format paramter (optional)
-\
+<br/>
+
 -`titlecase`: display a string with the first letter capitalized for each word
   - `<div>{{title | titlecase }}</div>`
-\
+<br/>
+
 -`uppercase`: display a string with all letters IN UPPER CASE
   - `<div>{{title | uppercase }}</div>`
-\
+<br/>
+
 -`lowercase`: display a string with all letters IN LOWER CASE
   - `<div>{{title | lowercase }}</div>`
