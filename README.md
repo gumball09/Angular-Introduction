@@ -68,3 +68,6 @@ Templated mechanism to transform data and display it in another form\
 **MISC**\
 `slice:[start, end)`: only takes the elements defined in parameter from the **start index up to, but not including, the end index**
   - `<course-card *ngFor="let course of courses | slice:0:2></>div>`: only displays items at index 0 and 1 from courses array 
+<br/>
+
+-`json`: converts data info json format for DEBUGGING PURPOSES
