@@ -34,6 +34,6 @@
 -`EventEmitter`: used along with `@Output`
 
 ### BUILT-IN PIPES "|"
-Templated mechanism to transform data and display it in another form 
+Templated mechanism to transform data and display it in another form\
 -`date`: display a date (with default or custom format)
   - `<div>{{ startDate | date: 'MM/dd/yyyy' }}</div>`: get the startDate and pipe to `date` fn, which takes a string as parameter for format (optional)
