@@ -10,8 +10,11 @@
 ### DIRECTIVES
 -`*ngFor`: iteration > render multiple data\
 -`*ngIf`: render conditions\
--`[ngClass]`: apply styles to an el\
-  - (**Recommended: should only be used for conditional stylings. CONSTANT STYLES TO AN ELEMENT SHOULD BE APPLIED THROUGH NORMAL CSS STYLING**)
+-`[ngClass]`: apply styles to an el
+  -should only be used for conditional stylings. 
+  -Good practice: Pass in a func() defined in the .ts file returning either a string, an array of strings or a configuration object 
+  -NOT MEANT TO REPLACE THE TRADITIONAL CSS STYLING (CONSTANT STYLES TO AN ELEMENT SHOULD BE APPLIED      THROUGH NORMAL CSS STYLING)
+  -
 
 ### DECORATIVES
 -`@Input()`decorative: to get the custom properties passed into an el\
