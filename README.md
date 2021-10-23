@@ -24,8 +24,8 @@
 <br/>
 
 -`[ngSwitch]` & `*ngSwitchCase` & `*ngSwitchDefault`: conditional rendering based on different cases
-  - `[ngSwitch]`: used in the parent element, takes an expression as parameter (i.e [ngSwitch]="course.description")\
-  - `*ngSwitchCase`: used in the child element, takes a string as parameter (**IF matches the condition -> the element will be rendered**)\
+  - `[ngSwitch]`: used in the parent element, takes an expression as parameter (i.e `[ngSwitch]="course.description"`)
+  - `*ngSwitchCase`: used in the child element, takes a string as parameter (**IF matches the condition -> the element will be rendered**)
   - `*ngSwitchDefault`: used in child element, NO PARAMETER, render the custom default value if no conditions met
 
 ### DECORATIVES
