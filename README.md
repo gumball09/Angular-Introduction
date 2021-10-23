@@ -6,10 +6,10 @@
 ### MISC
 -`<ng-template></ng-template>`: templated block\
 -`#name`: '#' with a custom name creates a `reference` to the current el\
-
-### DIRECTIVES
+ 
+### DIRECTIVES ([] means optional)
 -`*ngFor`: iteration > render multiple data\
--`*ngIf`: render conditions\
+-`*ngIf`: render conditions\ (**ngIf; [then]; [else])
 -`[ngClass]`: apply styles to an el
   - should only be used for conditional stylings.\
   - Good practice: Pass in a func() defined in the .ts file returning either a string, an array of strings or a configuration object\
