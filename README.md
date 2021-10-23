@@ -32,3 +32,6 @@
 -`@Input()`decorative: to get the custom properties passed into an el\
 -`@Output()` decorative: to print something custom to the console\
 -`EventEmitter`: used along with `@Output`
+
+### BUILT-IN PIPES
+Templated mechanism to transform data and display it in another form 
