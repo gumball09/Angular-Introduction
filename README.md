@@ -59,3 +59,7 @@ Templated mechanism to transform data and display it in another form\
 
 -`currency`: display a currency value (default: $)
   - `<div>{{ price | currency: 'CAD' }}</div>`: display currency in Canadian Dollars
+<br/>
+
+-`percent`: display a number in percentage %
+  - `<div>Percentage: {{ rate | percent }}</div>`
