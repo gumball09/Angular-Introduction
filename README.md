@@ -63,3 +63,8 @@ Templated mechanism to transform data and display it in another form\
 
 -`percent`: display a number in percentage %
   - `<div>Percentage: {{ rate | percent }}</div>`
+<br/>
+
+**MISC**\
+`slice:[start, end)`: only takes the elements defined in parameter from the **start index up to, but not including, the end index**
+  - `<course-card *ngFor="let course of courses | slice:0:2></>div>`: only displays items at index 0 and 1 from courses array 
