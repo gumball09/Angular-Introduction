@@ -4,6 +4,6 @@
 ### What I have learnt so far:
 -`@Input()`decorative: to get the custom properties passed into an el\
 -`#name`: '#' with a custom name creates a `reference` to the current el\
--`@Output()` decorative:\ 
--`EventEmitter`:\ 
+-`@Output()` decorative: \n 
+-`EventEmitter`: \n
 -`*ngFor`: iteration > render multiple data \
