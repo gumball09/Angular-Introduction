@@ -5,7 +5,7 @@
 
 ### MISC
 -`<ng-template></ng-template>`: templated block\
--`#name`: '#' with a custom name creates a `reference` to the current el\
+-`#name`: '#' with a custom name creates a `reference` to the current el
  
 ### DIRECTIVES 
 -`*ngFor`: iteration > render multiple data\
@@ -20,7 +20,13 @@
 <br/>
 
 -`[ngStyle]`: (similar to `[ngClass]`) to set a particular style to an el 
-  - **`[ngClass]` & `[ngStyle]` should only be used for DYNAMIC STYLING
+  - **`[ngClass]` & `[ngStyle]` should only be used for DYNAMIC STYLING**
+<br/>
+
+-`[ngSwitch]` & `*ngSwitchCase` & `*ngSwitchDefault`: conditional rendering based on different cases
+  - `[ngSwitch]`: used in the parent element, takes an expression as parameter (i.e [ngSwitch]="course.description")\
+  - `*ngSwitchCase`: used in the child element, takes a string as parameter (**IF matches the condition -> the element will be rendered**)\
+  - `*ngSwitchDefault`: used in child element, NO PARAMETER, render the custom default value if no conditions met
 
 ### DECORATIVES
 -`@Input()`decorative: to get the custom properties passed into an el\
