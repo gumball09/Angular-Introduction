@@ -9,7 +9,7 @@
 
 ### DIRECTIVES
 -`*ngFor`: iteration > render multiple data\
--`*ngIf`: render conditions\
+-`*ngIf`: render conditions
 
 ### DECORATIVES
 -`@Input()`decorative: to get the custom properties passed into an el\
