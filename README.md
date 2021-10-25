@@ -80,8 +80,8 @@ Templated mechanism to transform data and display it in another form\
 Get data from server asynchronously\
 **Advantages:**\
 -implictly & automatically subscribe to the observable from the tempalate
-  - `courses$ : Observable<Course[]>
-     this.courses$ = this.http.get<Course[]>('/api/courses', { params })`
+  - `courses$ : Observable<Course[]`\
+     `this.courses$ = this.http.get<Course[]>('/api/courses', { params })`
 <br/>
 
 -implictly & automatically unsubscribe from the observable when the component is destroyed
