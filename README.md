@@ -78,7 +78,7 @@ Templated mechanism to transform data and display it in another form\
 
 ### ASYNC PIPE
 Get data from server asynchronously\
-**Advantages:**
+**Advantages:**\
 -implictly & automatically subscribe to the observable from the tempalate
   - `courses$ : Observable<Course[]>
      this.courses$ = this.http.get<Course[]>('/api/courses', { params })`
