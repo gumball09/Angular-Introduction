@@ -78,10 +78,12 @@ Templated mechanism to transform data and display it in another form\
 
 ### ASYNC PIPE
 Get data from server asynchronously\
-**Advantages:**\
+**Advantages over 'normal' angular http**
 -implictly & automatically subscribe to the observable from the tempalate
   - `courses$ : Observable<Course[]`\
      `this.courses$ = this.http.get<Course[]>('/api/courses', { params })`
 <br/>
 
 -implictly & automatically unsubscribe from the observable when the component is destroyed
+
+___Note: In Angular Http Client, to get data from th observable, we HAVE TO SUBSCRIBE TO IT AND/OR UNSUBCRIBE FROM IT MANUALLY WHEN THE COMPONENT IS DESTROYED___
