@@ -86,4 +86,4 @@ Get data from server asynchronously\
 
 -implictly & automatically unsubscribe from the observable when the component is destroyed
 
-___Note: In Angular Http Client, to get data from th observable, we HAVE TO SUBSCRIBE TO IT AND/OR UNSUBCRIBE FROM IT MANUALLY WHEN THE COMPONENT IS DESTROYED___
+___Note: In Angular Http Client, to get data from the observable, we HAVE TO SUBSCRIBE TO IT AND/OR UNSUBCRIBE FROM IT MANUALLY WHEN THE COMPONENT IS DESTROYED___
